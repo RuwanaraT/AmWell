@@ -8,7 +8,7 @@
 
 1. Clone the repository
 
-* Get from Vesion Constrol -> Make sure to keep version constorl option as 'git' -> Paste URL <url> -> Set appropriate file destination -> Click on 'clone'
+* Get from Vesion Constrol -> Make sure to keep version constorl option as 'git' -> Paste URL https://github.com/RuwanaraT/Falcon4.git -> Set appropriate file destination -> Click on 'clone'
 
 
 
