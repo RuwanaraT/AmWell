@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Channel</string>
+    <string name="app_name">AMWELL</string>
+    <string name="tv_appname">AMWELL</string>
+    <string name="tv_theme">Trust . Convenience . Care</string>
+    <string name="et_email">Enter Your Email Address</string>
+    <string name="et_password">Enter Your Password</string>
+    <string name="rd_btn_p">Patient</string>
+    <string name="rd_btn_a">Admin</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_signup">Dont you have an account ? Sign Up</string>
 </resources>
