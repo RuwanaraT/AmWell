@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login" />
+        app:srcCompat="@drawable/login"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/tv_appname"
@@ -54,6 +55,7 @@
         android:ems="10"
         android:hint="@string/et_email"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18sp"
@@ -70,6 +72,7 @@
         android:ems="10"
         android:hint="@string/et_password"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
