@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80185F"
+    android:background="#7C064D"
     tools:context=".MainActivity">
 
     <ImageView
@@ -70,6 +70,7 @@
         android:ems="10"
         android:hint="@string/et_password"
         android:inputType="textPassword"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -110,9 +111,10 @@
         android:layout_width="157dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
-        android:background="#F70776"
+        android:background="@color/purple_700"
         android:text="@string/btn_login"
         android:textSize="20sp"
+        app:backgroundTint="#F06292"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
