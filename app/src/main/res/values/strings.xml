@@ -11,4 +11,16 @@
     <string name="signup"> <a href="www.facebook.com"> Sign Up </a></string>
     <string name="tv_msg">Dont you have an account?</string>
     <string name="tv_forgot"> <a href="www.facebook.com">Forgotten Password? </a></string>
+    <string name="tv_heading">Channel Your Doctor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_tittle">Channel Your Doctor</string>
+    <string name="tv_pname">Patient Name</string>
+    <string name="tv_ppnum">Phone Number</string>
+    <string name="tv_nic">NIC Number</string>
+    <string name="tv_email">Email Address</string>
+    <string name="tv_dname">Doctor Name</string>
+    <string name="tv_date">Appointment Date</string>
+    <string name="tv_time">Appointment Time</string>
+    <string name="btn_confirm">Confirm</string>
 </resources>
