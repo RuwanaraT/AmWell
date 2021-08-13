@@ -23,4 +23,16 @@
     <string name="tv_date">Appointment Date</string>
     <string name="tv_time">Appointment Time</string>
     <string name="btn_confirm">Confirm</string>
+    <string name="tv_rnic">NIC Number</string>
+    <string name="tv_rdate">Date</string>
+    <string name="tv_rtime">Time</string>
+    <string name="tv_rdname">Doctor</string>
+    <string name="tv_rsep">Specialization</string>
+    <string name="tv_cno">Channel No</string>
+    <string name="tv_rno">Room No</string>
+    <string name="tv_pay">Payment</string>
+    <string name="brn_cancel">Cancel</string>
+    <string name="btn_update">Update</string>
+    <string name="tv_channel">My Channeling</string>
+    <string name="tv_sep">Specialization</string>
 </resources>
