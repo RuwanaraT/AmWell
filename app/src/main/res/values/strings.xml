@@ -23,15 +23,4 @@
     <string name="tv_date">Appointment Date</string>
     <string name="tv_time">Appointment Time</string>
     <string name="btn_confirm">Confirm</string>
-    <string name="textView">Find Your Doctor</string>
-    <string name="doc">doc</string>
-    <string name="tv1_doc">Specialization</string>
-    <string name="Btn1">Any</string>
-    <string name="Btn2">Acupuncture</string>
-    <string name="Btn3">Dental Surgeon </string>
-    <string name="Btn4">Obstetrician</string>
-    <string name="Btn5">Eye Surgeon</string>
-    <string name="Btn6">Homeopathy</string>
-    <string name="Btn7">HSG</string>
-    <string name="Btn8">IUCD</string>
 </resources>
