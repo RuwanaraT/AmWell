@@ -135,6 +135,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/et_format"
         android:inputType="date"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_date"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -161,18 +162,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_nic"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <EditText
-        android:id="@+id/et_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:ems="10"
-        android:inputType="time"
-        android:text="               00:00"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_time"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
@@ -247,6 +236,17 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_sep"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rettime"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/tv_tettime"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_time"
         app:layout_constraintEnd_toEndOf="parent" />
 
 
