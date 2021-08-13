@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
-        <activity android:name=".ChannelingForm"></activity>
+        <activity android:name=".PatientRegistration"></activity>
+        <activity android:name=".PatientProfile" />
+        <activity android:name=".ChannelingForm" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
