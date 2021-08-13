@@ -13,7 +13,7 @@
     <string name="tv_forgot"> <a href="www.facebook.com">Forgotten Password? </a></string>
     <string name="tv_heading">Channel Your Doctor</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
     <string name="tv_tittle">Channel Your Doctor</string>
     <string name="tv_pname">Patient Name</string>
     <string name="tv_ppnum">Phone Number</string>
@@ -23,6 +23,7 @@
     <string name="tv_date">Appointment Date</string>
     <string name="tv_time">Appointment Time</string>
     <string name="btn_confirm">Confirm</string>
+
     <string name="tv_rnic">NIC Number</string>
     <string name="tv_rdate">Date</string>
     <string name="tv_rtime">Time</string>
@@ -35,4 +36,42 @@
     <string name="btn_update">Update</string>
     <string name="tv_channel">My Channeling</string>
     <string name="tv_sep">Specialization</string>
+
+    <string name="tv_pprof">Your Profile</string>
+    <string name="tv_great1">Hello,</string>
+    <string name="tv_great2">Samindika</string>
+    <string name="tv_infor">Personal Info</string>
+    <string name="tv_fname">Full Name</string>
+    <string name="tv_fnamed">Samindika Nuwangi Perera</string>
+    <string name="tv_gender">Gender</string>
+    <string name="tv_genderd">Female</string>
+    <string name="tv_id">National ID Card Number</string>
+    <string name="tv_idd">796959123V</string>
+    <string name="tv_bd">Birth Date</string>
+    <string name="tv_bdd">8-14-1979</string>
+    <string name="tv_contact">070 8902368</string>
+    <string name="tv_conno">Contact No</string>
+    <string name="tv_eadd">Email Address</string>
+    <string name="e_addd">samindika@gmail.com</string>
+    <string name="tv_home">Registered Address</string>
+    <string name="tv_homed">No 236/8 , Mahanama Street, Katunayake.</string>
+    <string name="btn_delp">Delete</string>
+    <string name="btn_editp">Edit</string>
+    <string name="et_format">MM/DD/YYYY</string>
+    <string name="tv_tettime">00:00</string>
+
+    <string name="tv_reg">AMWELL Registration</string>
+    <string name="tv_regname">Full Name</string>
+    <string name="tv_reggender">Gender</string>
+    <string name="tv_regnic">NIC Number</string>
+    <string name="tv_regbdy">Birth Date</string>
+    <string name="tv_regcon">Contact No</string>
+    <string name="tv_regemail">Email Address</string>
+    <string name="tv_regaddress">Registered Address</string>
+    <string name="tv_regpass">Password</string>
+    <string name="tv_regrepass">Re-Enter Password</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_regcancel">Cancel</string>
+    <string name="tv_loginstate">Already have an account?</string>
+    <string name="tv_loglink"><a href="www.facebook.com">Login</a></string>
 </resources>
