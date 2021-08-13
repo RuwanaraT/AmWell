@@ -1,4 +1,5 @@
 <resources>
+    <!-- RuwanaraT login-->
     <string name="app_name">AMWELL</string>
     <string name="tv_appname">AMWELL</string>
     <string name="tv_theme">Trust . Convenience . Care</string>
@@ -7,20 +8,34 @@
     <string name="rd_btn_p">Patient</string>
     <string name="rd_btn_a">Admin</string>
     <string name="btn_login">Login</string>
-
     <string name="signup"> <a href="www.facebook.com"> Sign Up </a></string>
     <string name="tv_msg">Dont you have an account?</string>
     <string name="tv_forgot"> <a href="www.facebook.com">Forgotten Password? </a></string>
-    <string name="tv_heading">Channel Your Doctor</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- RuwanaraT channeling form-->
     <string name="tv_tittle">Channel Your Doctor</string>
     <string name="tv_pname">Patient Name</string>
     <string name="tv_ppnum">Phone Number</string>
     <string name="tv_nic">NIC Number</string>
     <string name="tv_email">Email Address</string>
     <string name="tv_dname">Doctor Name</string>
+    <string name="tv_sep">Specialization</string>
     <string name="tv_date">Appointment Date</string>
     <string name="tv_time">Appointment Time</string>
     <string name="btn_confirm">Confirm</string>
+
+    <!-- RuwanaraT channeling receipts-->
+    <string name="tv_channel">My Channeling</string>
+    <string name="tv_rnic">NIC Number</string>
+    <string name="tv_rdate">Date</string>
+    <string name="tv_rtime">Time</string>
+    <string name="tv_rsep">Specialization</string>
+    <string name="tv_cno">Channel No</string>
+    <string name="tv_rno">Room No</string>
+    <string name="tv_pay">Payment</string>
+    <string name="tv_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="tv_rdname">Doctor</string>
+
+
 </resources>
