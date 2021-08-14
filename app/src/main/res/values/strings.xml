@@ -42,21 +42,16 @@
     <string name="tv_great2">Samindika</string>
     <string name="tv_infor">Personal Info</string>
     <string name="tv_fname">Full Name</string>
-    <string name="tv_fnamed">Samindika Nuwangi Perera</string>
+
     <string name="tv_gender">Gender</string>
-    <string name="tv_genderd">Female</string>
     <string name="tv_id">National ID Card Number</string>
-    <string name="tv_idd">796959123V</string>
     <string name="tv_bd">Birth Date</string>
-    <string name="tv_bdd">8-14-1979</string>
-    <string name="tv_contact">070 8902368</string>
     <string name="tv_conno">Contact No</string>
     <string name="tv_eadd">Email Address</string>
-    <string name="e_addd">samindika@gmail.com</string>
     <string name="tv_home">Registered Address</string>
-    <string name="tv_homed">No 236/8 , Mahanama Street, Katunayake.</string>
     <string name="btn_delp">Delete</string>
     <string name="btn_editp">Edit</string>
+
     <string name="et_format">MM/DD/YYYY</string>
     <string name="tv_tettime">00:00</string>
 
@@ -74,4 +69,5 @@
     <string name="btn_regcancel">Cancel</string>
     <string name="tv_loginstate">Already have an account?</string>
     <string name="tv_loglink"><a href="www.facebook.com">Login</a></string>
+
 </resources>
