@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
         <activity
+            android:name=".RefundForm"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentReceipt"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentCard"
+            android:exported="true" />
+        <activity
             android:name=".PaymentForm"
             android:exported="true" />
         <activity android:name=".ChannelingForm" />

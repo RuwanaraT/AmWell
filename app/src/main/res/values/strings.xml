@@ -70,4 +70,56 @@
     <string name="tv_loginstate">Already have an account?</string>
     <string name="tv_loglink"><a href="www.facebook.com">Login</a></string>
 
+
+    <string name="Payment2">Payment</string>
+    <string name="CardNo">Card No : </string>
+    <string name="Enter_CardNum">Enter Your Card Number</string>
+    <string name="ExpireDate">Expire Date : </string>
+    <string name="Year">Year : </string>
+    <string name="Month">Month : </string>
+    <string name="cvv">CVV : </string>
+    <string name="Enter_cvv">Enter CVV</string>
+    <string name="confirmPayment_button">Confirm Payment</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="paymentForm">Payment</string>
+    <string name="paymentForm_Image">TODO</string>
+    <string name="patientName">Patient Name : </string>
+    <string name="Enter_patientName">Enter Your Name</string>
+    <string name="Date">Date : </string>
+    <string name="Enter_Date">Enter Date</string>
+    <string name="Email">Email : </string>
+    <string name="Enter_Email">Enter Your Email</string>
+    <string name="Type">Type : </string>
+    <string name="continue_button">Continue</string>
+    <string name="Cancel_button">Cancel</string>
+
+    <string name="payment_receipt">Receipt</string>
+    <string name="Pay_Status">Payment Successful</string>
+    <string name="Receipt">Receipt No : </string>
+    <string name="receiptNo">Pdoc1234</string>
+    <string name="patient_name">Patient Name : </string>
+    <string name="Name_patient">K.S.R.Y. Weerasinghe</string>
+    <string name="patient_Email">Email : </string>
+    <string name="Email_patient">krishan@gmail.com</string>
+    <string name="Receipt_date">Date : </string>
+    <string name="Date_receipt">25/06/2021</string>
+    <string name="Receipt_amount">Amount :  Rs. </string>
+    <string name="amount_receipt">2100.00</string>
+    <string name="done_button">Done</string>
+
+    <string name="Refund_icon">TODO</string>
+    <string name="Refund_form">Refund</string>
+    <string name="refund_patientName">Patient Name : </string>
+    <string name="Enter_refundPatient">Enter Your Name</string>
+    <string name="refund_Date">Date : </string>
+    <string name="refund_receiptNo">Receipt No : </string>
+    <string name="Enter_refundReceipt">Enter Recepit Number</string>
+    <string name="refund_Amount">Amount :   Rs. </string>
+    <string name="Enter_refundAmount">Enter Refund Amount</string>
+    <string name="Refund_Email">Email : </string>
+    <string name="Enter_refundEmail">Enter Email</string>
+    <string name="Confirm_button">Confirm Refund</string>
+    <string name="refund_cancelButton">Cancel</string>
+
 </resources>
