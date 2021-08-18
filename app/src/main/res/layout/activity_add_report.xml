@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddReport">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="411dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/adrp01"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sa001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/shrp"
+        android:textColor="@color/adrp02"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/ar_tw_2"
+        android:layout_width="70dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sa001" />
+
+    <EditText
+        android:id="@+id/ar_pt1"
+        android:layout_width="196dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw_2"
+        app:layout_constraintTop_toBottomOf="@+id/sa001" />
+
+    <TextView
+        android:id="@+id/ar_tw3"
+        android:layout_width="64dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_nic"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw_2" />
+
+    <EditText
+        android:id="@+id/ar_pt2"
+        android:layout_width="196dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw3"
+        app:layout_constraintTop_toBottomOf="@+id/ar_pt1" />
+
+    <TextView
+        android:id="@+id/ar_tw4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_age"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw3" />
+
+    <EditText
+        android:id="@+id/ar_pt3"
+        android:layout_width="194dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw4"
+        app:layout_constraintTop_toBottomOf="@+id/ar_pt2" />
+
+    <CheckBox
+        android:id="@+id/ar_cb1"
+        android:layout_width="110dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_chbx"
+        android:textColor="@color/ad_rp03"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw4" />
+
+    <EditText
+        android:id="@+id/ar_mltxt1"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_cb1" />
+
+    <TextView
+        android:id="@+id/ar_tw6"
+        android:layout_width="91dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrtp_bldgrp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_mltxt1" />
+
+    <Spinner
+        android:id="@+id/ar_spin1"
+        android:layout_width="82dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw6"
+        app:layout_constraintTop_toBottomOf="@id/ar_mltxt1" />
+
+    <TextView
+        android:id="@+id/ar_tw7"
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_weight"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw6" />
+
+    <EditText
+        android:id="@+id/ar_tnum1"
+        android:layout_width="87dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw7"
+        app:layout_constraintTop_toBottomOf="@+id/ar_spin1" />
+
+    <TextView
+        android:id="@+id/ar_tw8"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_bp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw7" />
+
+    <EditText
+        android:id="@+id/ar_tnum2"
+        android:layout_width="206dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw8"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tnum1" />
+
+    <TextView
+        android:id="@+id/ar_tw9"
+        android:layout_width="114dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/adrp_bs"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tw8" />
+
+    <EditText
+        android:id="@+id/ar_tnum3"
+        android:layout_width="209dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/ar_tw9"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tnum2" />
+
+    <Button
+        android:id="@+id/ar_sbmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/adrp_sbmt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_tnum3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

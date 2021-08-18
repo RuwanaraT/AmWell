@@ -10,4 +10,22 @@
     <color name="toolbar3">#7C064D</color>
     <color name="tv_doc">#7C064D</color>
     <color name="tv1_doc">#03dac6</color>
+    <color name="adrp01">#7c064d</color>
+    <color name="adrp02">#03dac6</color>
+    <color name="ad_rp03">#252121</color>
+    <color name="uprp01">#7c064d</color>
+    <color name="uprp02">#03dac6</color>
+    <color name="shrp01">#3700b3</color>
+    <color name="shrp02">#330977</color>
+    <color name="shrp03">#FF330977</color>
+    <color name="shrp04">#FF330977</color>
+    <color name="shrp05">#FF330977</color>
+    <color name="shrp06">#FF330977</color>
+    <color name="shrp07">#FF330977</color>
+    <color name="shrp08" />
+    <color name="shrp09">#D81A0C</color>
+    <color name="shrp10">#FF330977</color>
+    <color name="shrp11">#FF330977</color>
+    <color name="adm_01">#6200ee</color>
+    <color name="adm02">#8256CF</color>
 </resources>
