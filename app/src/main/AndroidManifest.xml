@@ -9,10 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
-        <activity android:name=".AdminDashboard"></activity>
-        <activity android:name=".ShowReport" />
-        <activity android:name=".UpdateReport" />
-        <activity android:name=".AddReport" />
+        <activity
+            android:name=".RefundForm"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentReceipt"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentCard"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentForm"
+            android:exported="true" />
         <activity android:name=".ChannelingForm" />
         <activity android:name=".MainActivity">
             <intent-filter>
