@@ -122,4 +122,6 @@
     <string name="Confirm_button">Confirm Refund</string>
     <string name="refund_cancelButton">Cancel</string>
 
+    <string name="shrp">Add Reports</string>
+    <string name="adrp_name">Name</string>
 </resources>
