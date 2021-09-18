@@ -38,7 +38,7 @@
 
 * Switch to master branch (Make sure to be in the master branch always when merging changes).
 
-* Right click on the project -> Git -> Repository -> Merge Chanes -> Select relevant branch -> Click on 'Merge'
+* Right click on the project -> Git -> Repository -> Merge Changes -> Select relevant branch -> Click on 'Merge'
 
 * Again push changes(Right click on the project -> Git -> Repository -> Push -> Click on 'Push')
 
