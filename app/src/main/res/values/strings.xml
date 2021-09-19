@@ -124,4 +124,45 @@
 
     <string name="shrp">Add Reports</string>
     <string name="adrp_name">Name</string>
+    <string name="adrp_nic">NIC</string>
+    <string name="adrp_age">Age</string>
+    <string name="adrp_allg">Allergies</string>
+    <string name="adrp_chbx">Allergies</string>
+    <string name="adrtp_bldgrp">Blood Group</string>
+    <string name="adrp_weight">Weight</string>
+    <string name="adrp_bp">Blood Pressure</string>
+    <string name="adrp_bs">Blood Sugar</string>
+    <string name="adrp_sbmt">Submit</string>
+    <string name="uprp">Update Report</string>
+    <string name="uprp_name">Name</string>
+    <string name="uprp_age">Age</string>
+    <string name="uprp_nic">NIC</string>
+    <string name="uprp_chbx">Allergies</string>
+    <string name="uprp_bldgrp">Blood Group</string>
+    <string name="uprp_weight">Weight</string>
+    <string name="uprp_bp">Blood Pressure</string>
+    <string name="uprp_bs">Blood Sugar</string>
+    <string name="uprp_update">Update</string>
+    <string name="shrp1">My Report</string>
+    <string name="shrp_name">Name</string>
+
+    <string name="shrp_name2">Samindika</string>
+    <string name="shrp_nic">NIC</string>
+    <string name="shrp_nic2">1234567890</string>
+    <string name="shrp_bp">Blood Pressure</string>
+    <string name="shrp_bp2">30/60 mmHg</string>
+    <string name="shrp_bs">Blood Sugar</string>
+    <string name="shrp_bs2">140 mg/dL</string>
+    <string name="shrp_allg">Allergies</string>
+    <string name="shrp_allg2">Panadol</string>
+    <string name="shrp_weight">Weight</string>
+    <string name="shrp_weight2">40 kg</string>
+    <string name="shrp_notice">For Doctor\'s use only</string>
+    <string name="shrp_dcount">1 Y  13 D  15 H</string>
+    <string name="shrp_lw">since last visit</string>
+    <string name="adm_dsh">Admin Dashboard</string>
+    <string name="adm_btn1">Add Doctor</string>
+    <string name="admbtn2">Edit Doctor</string>
+    <string name="admbtn3">Add Report</string>
+    <string name="admbtn4">Update Report</string>
 </resources>
