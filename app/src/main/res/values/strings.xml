@@ -8,9 +8,9 @@
     <string name="rd_btn_a">Admin</string>
     <string name="btn_login">Login</string>
 
-    <string name="signup"> <a href="www.facebook.com"> Sign Up </a></string>
-    <string name="tv_msg">Dont you have an account?</string>
-    <string name="tv_forgot"> <a href="www.facebook.com">Forgotten Password? </a></string>
+    <string name="signup">  Sign Up </string>
+    <string name="tv_msg">Do not you have an account?</string>
+    <string name="tv_forgot"> Forgotten Password? </string>
     <string name="tv_heading">Channel Your Doctor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
@@ -67,8 +67,7 @@
     <string name="tv_regrepass">Re-Enter Password</string>
     <string name="btn_submit">Submit</string>
     <string name="btn_regcancel">Cancel</string>
-    <string name="tv_loginstate">Already have an account?</string>
-    <string name="tv_loglink"><a href="www.facebook.com">Login</a></string>
+
 
 
     <string name="Payment2">Payment</string>
@@ -165,4 +164,10 @@
     <string name="admbtn2">Edit Doctor</string>
     <string name="admbtn3">Add Report</string>
     <string name="admbtn4">Update Report</string>
+    <string name="btn_channel">Channel Your Doctor</string>
+    <string name="btn_channelings">My Channelings</string>
+    <string name="btn_profile">View Profile</string>
+    <string name="btn_payd">Payment</string>
+    <string name="tv_welcome">Welcome to AMWELL !!!</string>
+    <string name="btn_cancel">Cancel</string>
 </resources>
