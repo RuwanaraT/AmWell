@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
-
-        <activity android:name=".PatientDashboard"
-            android:parentActivityName = ".MainActivity">
-        </activity>
-
+        <activity
+            android:name=".DoctorLIst"
+            android:exported="true" />
+        <activity
+            android:name=".PatientDashboard"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".RefundForm"
             android:exported="true" />
@@ -26,18 +27,16 @@
         <activity
             android:name=".PaymentForm"
             android:exported="true" />
-
-        <activity android:name=".ChannelingForm"
-            android:parentActivityName = ".PatientDashboard"/>
-
-        <activity android:name=".ChannelingReceipt"
-            android:parentActivityName = ".PatientDashboard"/>
-
-        <activity android:name=".PatientProfile"
-            android:parentActivityName = ".PatientDashboard"/>
-
+        <activity
+            android:name=".ChannelingForm"
+            android:parentActivityName=".PatientDashboard" />
+        <activity
+            android:name=".ChannelingReceipt"
+            android:parentActivityName=".PatientDashboard" />
+        <activity
+            android:name=".PatientProfile"
+            android:parentActivityName=".PatientDashboard" />
         <activity android:name=".PatientRegistration" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
