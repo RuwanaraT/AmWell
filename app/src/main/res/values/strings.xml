@@ -165,9 +165,9 @@
     <string name="admbtn3">Add Report</string>
     <string name="admbtn4">Update Report</string>
     <string name="btn_channel">Channel Your Doctor</string>
-    <string name="btn_channelings">My Channelings</string>
     <string name="btn_profile">View Profile</string>
     <string name="btn_payd">Payment</string>
     <string name="tv_welcome">Welcome to AMWELL !!!</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_refund">Refund</string>
 </resources>
