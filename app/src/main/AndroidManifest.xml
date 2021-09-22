@@ -36,7 +36,8 @@
         <activity android:name=".PatientProfile"
             android:parentActivityName = ".PatientDashboard"/>
 
-        <activity android:name=".PatientRegistration" />
+        <activity android:name=".PatientRegistration"
+            android:parentActivityName = ".MainActivity"/>
 
         <activity android:name=".MainActivity">
             <intent-filter>
