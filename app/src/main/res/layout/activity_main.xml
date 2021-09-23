@@ -115,7 +115,6 @@
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:background="@color/purple_700"
-        android:onClick="openPatientDashboard"
         android:text="@string/btn_login"
         android:textSize="20sp"
         app:backgroundTint="#F06292"

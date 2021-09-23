@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PatientRegistration extends AppCompatActivity {
 
@@ -59,11 +60,40 @@ public class PatientRegistration extends AppCompatActivity {
                 String iAddress = et_reg_address.getText().toString();
                 String iPassword = et_reg_pass.getText().toString();
                 String iRePassword = et_reg_repass.getText().toString();
+                
+                if(iName.equals("") || iGender.equals("") || iNIC.equals("") || iBdy.equals("") || iPhone.equals("") || iEmail.equals("") || iAddress.equals("") || iPassword.equals("") || iRePassword.equals("")) {
 
-                Patient patient = new Patient(iName, iGender, iNIC, iBdy, iPhone, iEmail, iAddress, iPassword, iRePassword);
-                dbManager.PatientRegistration(patient);
+                    Toast.makeText(context, "Please Fill All the Fields", Toast.LENGTH_SHORT).show();
+                }
 
-                startActivity(new Intent(context,MainActivity.class));
+                else {
+
+                    if(iPassword.equals(iRePassword)) {
+
+                        Boolean result = dbManager.ValidateEmail(iEmail);
+
+                        if(result == false) {
+
+                            Patient patient = new Patient(iName, iGender, iNIC, iBdy, iPhone, iEmail, iAddress, iPassword, iRePassword);
+                            Boolean status = dbManager.PatientRegistration(patient);
+
+                            if(status == true) {
+                                Toast.makeText(context, "Registration is Successful", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(context, MainActivity.class));
+                            }
+                            else {
+                                Toast.makeText(context, "Registration is Unsuccessful", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                        else {
+                            Toast.makeText(context, "Email is Already Exist", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+
+                    else {
+                        Toast.makeText(context, "Two Password Fields are Mismatched", Toast.LENGTH_SHORT).show();
+                    }
+                }
             }
         });
 

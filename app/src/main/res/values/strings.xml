@@ -33,7 +33,7 @@
     <string name="tv_rno">Room No</string>
     <string name="tv_pay">Payment</string>
     <string name="brn_cancel">Cancel</string>
-    <string name="btn_update">Update</string>
+    <string name="btn_update">Modify</string>
     <string name="tv_channel">My Channeling</string>
     <string name="tv_sep">Specialization</string>
 
@@ -169,4 +169,6 @@
     <string name="tv_welcome">Welcome to AMWELL !!!</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_refund">Refund</string>
+
+    <string name="tv_continue">Continue To Payment</string>
 </resources>
