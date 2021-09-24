@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
+        <activity android:name=".UpdateChannelingForm"></activity>
         <activity
+            android:name=".Payment"
             android:name=".EditDoctor"
             android:exported="true" />
         <activity
@@ -45,7 +47,9 @@
         <activity
             android:name=".PatientProfile"
             android:parentActivityName=".PatientDashboard" />
-        <activity android:name=".PatientRegistration" />
+        <activity
+            android:name=".PatientRegistration"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -33,7 +33,7 @@
     <string name="tv_rno">Room No</string>
     <string name="tv_pay">Payment</string>
     <string name="brn_cancel">Cancel</string>
-    <string name="btn_update">Update</string>
+    <string name="btn_update">Modify</string>
     <string name="tv_channel">My Channeling</string>
     <string name="tv_sep">Specialization</string>
 
@@ -164,9 +164,13 @@
     <string name="admbtn3">Add Report</string>
     <string name="admbtn4">Update Report</string>
     <string name="btn_channel">Channel Your Doctor</string>
-    <string name="btn_channelings">My Channelings</string>
     <string name="btn_profile">View Profile</string>
     <string name="btn_payd">Payment</string>
     <string name="tv_welcome">Welcome to AMWELL !!!</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_refund">Refund</string>
+
+    <string name="tv_continue">Continue To Payment</string>
+    <string name="tv_cedit">Update  Your Channel</string>
+    <string name="btn_UEdit">Update</string>
 </resources>

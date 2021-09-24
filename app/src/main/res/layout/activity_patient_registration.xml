@@ -41,7 +41,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regname"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -53,6 +53,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regname"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -65,7 +66,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_reggender"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_regname" />
 
@@ -77,6 +78,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_reggender"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -89,7 +91,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regnic"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_reggender" />
 
@@ -101,6 +103,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regnic"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -113,7 +116,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regbdy"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_regnic" />
 
@@ -125,6 +128,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regbdy"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -137,7 +141,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regcon"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_regbdy" />
 
@@ -149,6 +153,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regcon"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -161,7 +166,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regemail"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_regcon" />
 
@@ -173,6 +178,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regemail"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -185,7 +191,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regaddress"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_regemail" />
 
@@ -197,6 +203,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regaddress"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -209,7 +216,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regpass"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_regaddress" />
 
@@ -221,6 +228,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regpass"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -233,7 +241,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tv_regrepass"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_regpass" />
 
@@ -245,6 +253,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textSize="17sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_regrepass"
         app:layout_constraintEnd_toEndOf="parent" />
 
