@@ -39,6 +39,15 @@
         <activity android:name=".PatientRegistration"
             android:parentActivityName = ".MainActivity"/>
 
+        <activity android:name=".AddReport"
+            android:parentActivityName = ".MainActivity"/>
+
+        <activity android:name=".UpdateReport"
+            android:parentActivityName = ".MainActivity"/>
+
+        <activity android:name=".ShowReport"
+            android:parentActivityName = ".MainActivity"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
