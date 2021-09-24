@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorChannelingApp">
+        <activity android:name=".UpdateChannelingForm"></activity>
         <activity
             android:name=".Payment"
             android:exported="true" />
         <activity
             android:name=".PatientDashboard"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".RefundForm"
             android:exported="true" />
