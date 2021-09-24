@@ -7,18 +7,6 @@
     android:background="#FFFFFF"
     tools:context=".RefundForm">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#7C064D"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/Refund_form"
         android:layout_width="wrap_content"
@@ -39,14 +27,13 @@
         android:layout_height="5dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="280dp"
         android:layout_marginRight="280dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+        tools:layout_editor_absoluteY="49dp" />
 
     <View
         android:id="@+id/divider5"
@@ -54,35 +41,35 @@
         android:layout_height="5dp"
         android:layout_marginStart="280dp"
         android:layout_marginLeft="280dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+        tools:layout_editor_absoluteY="49dp" />
 
     <TextView
         android:id="@+id/refund_patientName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="92dp"
         android:text="@string/refund_patientName"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider_first" />
 
     <EditText
         android:id="@+id/Enter_refundPatient"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="216dp"
+        android:layout_height="44dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:ems="10"
         android:hint="@string/Enter_refundPatient"
         android:inputType="textPersonName"
@@ -108,8 +95,8 @@
 
     <CalendarView
         android:id="@+id/calendarView"
-        android:layout_width="133dp"
-        android:layout_height="133dp"
+        android:layout_width="137dp"
+        android:layout_height="109dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
@@ -123,13 +110,13 @@
         android:id="@+id/refund_receiptNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="88dp"
         android:text="@string/refund_receiptNo"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/refund_Date" />
 
@@ -226,12 +213,11 @@
         android:id="@+id/Refund_icon"
         android:layout_width="100dp"
         android:layout_height="82dp"
-        android:layout_marginTop="2dp"
         android:contentDescription="@string/Refund_icon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/refund"
         tools:ignore="ImageContrastCheck" />
 
