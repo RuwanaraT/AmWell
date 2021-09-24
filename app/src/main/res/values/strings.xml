@@ -171,7 +171,6 @@
     <string name="btn_refund">Refund</string>
 
     <string name="tv_continue">Continue To Payment</string>
-    <string name="tv_upcoming">You have 2 Upcoming Channeling</string>
     <string name="tv_cedit">Update  Your Channel</string>
     <string name="btn_UEdit">Update</string>
 </resources>

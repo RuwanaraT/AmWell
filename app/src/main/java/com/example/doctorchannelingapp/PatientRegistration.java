@@ -60,7 +60,7 @@ public class PatientRegistration extends AppCompatActivity {
                 String iAddress = et_reg_address.getText().toString();
                 String iPassword = et_reg_pass.getText().toString();
                 String iRePassword = et_reg_repass.getText().toString();
-                
+
                 if(iName.equals("") || iGender.equals("") || iNIC.equals("") || iBdy.equals("") || iPhone.equals("") || iEmail.equals("") || iAddress.equals("") || iPassword.equals("") || iRePassword.equals("")) {
 
                     Toast.makeText(context, "Please Fill All the Fields", Toast.LENGTH_SHORT).show();
@@ -78,6 +78,7 @@ public class PatientRegistration extends AppCompatActivity {
                             Boolean status = dbManager.PatientRegistration(patient);
 
                             if(status == true) {
+
                                 Toast.makeText(context, "Registration is Successful", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(context, MainActivity.class));
                             }
@@ -89,7 +90,6 @@ public class PatientRegistration extends AppCompatActivity {
                             Toast.makeText(context, "Email is Already Exist", Toast.LENGTH_SHORT).show();
                         }
                     }
-
                     else {
                         Toast.makeText(context, "Two Password Fields are Mismatched", Toast.LENGTH_SHORT).show();
                     }
