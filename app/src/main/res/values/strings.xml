@@ -159,7 +159,7 @@
     <string name="shrp_dcount">1 Y  13 D  15 H</string>
     <string name="shrp_lw">since last visit</string>
     <string name="adm_dsh">Admin Dashboard</string>
-    <string name="adm_btn1">Add Doctor</string>
+    <string name="adm_btn1">Doctor Details</string>
     <string name="admbtn2">Edit Doctor</string>
     <string name="admbtn3">Add Report</string>
     <string name="admbtn4">Update Report</string>

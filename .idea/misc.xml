@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_add_doctor.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_channeling_form.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_channeling_receipt.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_doctor_list.xml" value="0.4" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_doctor_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_edit_doctor.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_patient_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/activity_payment_card.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Dilshan/AndroidStudioProjects/tutes/1/Falcon4/app/src/main/res/layout/singledoc.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Falcon4/app/src/main/res/layout/activity_channeling_form.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Falcon4/app/src/main/res/layout/activity_channeling_receipt.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Falcon4/app/src/main/res/layout/activity_doctor_list.xml" value="0.21784420289855072" />
