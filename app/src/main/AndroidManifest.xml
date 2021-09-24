@@ -12,10 +12,12 @@
         <activity android:name=".UpdateChannelingForm"></activity>
         <activity
             android:name=".Payment"
-            android:name=".EditDoctor"
             android:exported="true" />
         <activity
             android:name=".AddDoctor"
+            android:exported="true" />
+        <activity
+            android:name=".EditDoctor"
             android:exported="true" />
         <activity
             android:name=".DoctorMain"
