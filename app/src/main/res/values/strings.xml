@@ -75,7 +75,7 @@
     <string name="ExpireDate">Expire Date : </string>
     <string name="Year">Year : </string>
     <string name="Month">Month : </string>
-    <string name="cvv">CVV : </string>
+    <string name="cardvv">CVV : </string>
     <string name="Enter_cvv">Enter CVV</string>
     <string name="confirmPayment_button">Confirm Payment</string>
     <string name="cancel_button">Cancel</string>
@@ -110,9 +110,9 @@
     <string name="Refund_form">Refund</string>
     <string name="refund_patientName">Patient Name : </string>
     <string name="Enter_refundPatient">Enter Your Name</string>
-    <string name="refund_Date">Date : </string>
+    <string name="refund_Date">Issued Date : </string>
     <string name="refund_receiptNo">Receipt No : </string>
-    <string name="Enter_refundReceipt">Enter Recepit Number</string>
+    <string name="Enter_refundReceipt">Enter Receipt Number</string>
     <string name="refund_Amount">Amount :   Rs. </string>
     <string name="Enter_refundAmount">Enter Refund Amount</string>
     <string name="Refund_Email">Email : </string>
@@ -172,4 +172,18 @@
 
     <string name="tv_continue">Continue To Payment</string>
     <string name="tv_upcoming">You have 2 Upcoming Channeling</string>
+
+    <string name="payment">Payment</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="cvv">CVV :</string>
+    <string name="amount">Amount :</string>
+    <string name="todo">TODO</string>
+    <string name="enter_your_card_number">Enter Your Card Number</string>
+    <string name="crdvv">cvv</string>
+    <string name="payAmount">***.00</string>
+
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="ref_intro">(You can apply for a Refund only within 7 days from the date of issue)</string>
 </resources>
