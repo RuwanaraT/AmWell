@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_surface"
-    android:orientation="vertical"
-    tools:context=".ChannelingForm">
+    tools:context=".UpdateChannelingForm">
 
     <TextView
         android:id="@+id/tv_cedit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/tv_tittle"
+        android:text="@string/tv_cedit"
         android:textColor="#AA345C"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -23,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_pname"
+        android:id="@+id/et_updatePName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -74,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/et_pemail"
+        android:id="@+id/et_updatePEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -86,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/et_dname"
+        android:id="@+id/et_updateDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -111,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_email" />
 
     <EditText
-        android:id="@+id/et_pnic"
+        android:id="@+id/et_updatePNIC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -136,15 +134,14 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_pname" />
 
     <Button
-        android:id="@+id/btn_confirm"
+        android:id="@+id/btn_UEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="openChannelingReceipt"
-        android:text="@string/btn_confirm"
+        android:text="@string/btn_UEdit"
         android:textSize="20sp"
         app:backgroundTint="#4CAF50"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_cancel"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_updateCancel"
+        app:layout_constraintEnd_toStartOf="@+id/btn_updateCancel"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -173,7 +170,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_dname" />
 
     <EditText
-        android:id="@+id/et_sep"
+        android:id="@+id/et_updateSep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -185,21 +182,20 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_cancel"
+        android:id="@+id/btn_updateCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:onClick="cancelChannelingReceipt"
         android:text="@string/btn_cancel"
         android:textSize="20sp"
         app:backgroundTint="#E91E63"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_confirm"
-        app:layout_constraintTop_toBottomOf="@+id/et_sep" />
+        app:layout_constraintStart_toEndOf="@+id/btn_UEdit"
+        app:layout_constraintTop_toBottomOf="@+id/et_updateSep" />
 
     <EditText
-        android:id="@+id/et_phone"
+        android:id="@+id/et_updatePhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

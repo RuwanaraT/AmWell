@@ -59,9 +59,7 @@ public class ChannelingForm extends AppCompatActivity {
         else {
 
              Channel channel = new Channel(ip_name, ip_phone, ip_nic, ip_email, ip_doc, ip_sep);
-             Boolean result = dbManager.addChannel(channel);
-
-             if(result == false) {
+             dbManager.addChannel(channel);
 
                  Toast.makeText(context, "Channel is confirmed", Toast.LENGTH_SHORT).show();
                  Intent intent = new Intent(this,ChannelingReceipt.class);
@@ -70,11 +68,7 @@ public class ChannelingForm extends AppCompatActivity {
                  intent.putExtra("i2", ip_doc);
                  intent.putExtra("i3", ip_sep);
                  startActivity(intent);
-             }
-             else {
 
-                 Toast.makeText(context, "Something might went wrong", Toast.LENGTH_SHORT).show();
-             }
         }
 
 

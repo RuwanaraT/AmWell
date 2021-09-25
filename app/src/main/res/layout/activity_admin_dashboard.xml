@@ -34,8 +34,8 @@
 
     <Button
         android:id="@+id/adm_btn1"
-        android:layout_width="249dp"
-        android:layout_height="53dp"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
         android:layout_marginTop="16dp"
         android:text="@string/adm_btn1"
         android:textSize="24sp"
