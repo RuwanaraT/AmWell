@@ -141,7 +141,7 @@
     <string name="uprp_bp">Blood Pressure</string>
     <string name="uprp_bs">Blood Sugar</string>
     <string name="uprp_update">Update</string>
-    <string name="shrp1">My Report</string>
+    <string name="shrp1">Patient Report</string>
     <string name="shrp_name">Name</string>
 
     <string name="shrp_name2">Samindika</string>
@@ -173,6 +173,8 @@
     <string name="tv_continue">Continue To Payment</string>
     <string name="tv_cedit">Update  Your Channel</string>
     <string name="btn_UEdit">Update</string>
+    <string name="rl_prl">Patient Rpeort List</string>
+    <string name="rl_prl1">Patient Report List</string>
 
 
 </resources>
