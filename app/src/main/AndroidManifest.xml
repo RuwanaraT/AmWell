@@ -15,7 +15,8 @@
             android:exported="true" />
         <activity
             android:name=".Payment"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName = ".PatientDashboard"/>
         <activity
             android:name=".AddDoctor"
             android:exported="true" />
