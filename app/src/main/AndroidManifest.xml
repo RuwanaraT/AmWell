@@ -12,8 +12,12 @@
         <activity android:name=".ReportList"></activity>
         <activity android:name=".UpdateChannelingForm" />
         <activity
-            android:name=".Payment"
+            android:name=".RefundReceipt"
             android:exported="true" />
+        <activity
+            android:name=".Payment"
+            android:exported="true"
+            android:parentActivityName = ".PatientDashboard"/>
         <activity
             android:name=".AddDoctor"
             android:exported="true" />
@@ -31,13 +35,15 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".RefundForm"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName = ".PatientDashboard"/>
         <activity
             android:name=".PaymentReceipt"
             android:exported="true" />
         <activity
             android:name=".PaymentCard"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName = ".PatientDashboard"/>
         <activity
             android:name=".PaymentForm"
             android:exported="true" />

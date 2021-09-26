@@ -13,8 +13,8 @@ public class PatientDashboard extends AppCompatActivity {
 
     Button btn_channel;
     Button btn_profile;
-    //Button btn_pay;
-    //Button btn_refund;
+    Button btn_pay;
+    Button btn_refund;
 //    TextView tv_upcoming;
 //    Context context;
 //    DBManager dbManager;
@@ -28,8 +28,8 @@ public class PatientDashboard extends AppCompatActivity {
 
         btn_channel = findViewById(R.id.btn_channel);
         btn_profile = findViewById(R.id.btn_profile);
-        //btn_pay = findViewById(R.id.btn_payd);
-        //btn_refund = findViewById(R.id.btn_refund);
+        btn_pay = findViewById(R.id.btn_payd);
+        btn_refund = findViewById(R.id.btn_refund);
 //        tv_upcoming = findViewById(R.id.tv_upcoming);
 //        context = this;
 //        dbManager = new DBManager(context);
@@ -53,6 +53,20 @@ public class PatientDashboard extends AppCompatActivity {
     public void openPatientProfile(View view) {
 
         Intent intent = new Intent(this,PatientProfile.class);
+
+        startActivity(intent);
+    }
+
+    public void openPaymentCard(View view) {
+
+        Intent intent = new Intent(this,Payment.class);
+
+        startActivity(intent);
+    }
+
+    public void openRefundForm(View view) {
+
+        Intent intent = new Intent(this,RefundForm.class);
 
         startActivity(intent);
     }
