@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class AddReport extends AppCompatActivity {
 
@@ -56,6 +57,7 @@ public class AddReport extends AppCompatActivity {
                 reportDBManager.addReport(report);
 
                 startActivity(new Intent(context,ShowReport.class));
+                Toast.makeText(context,"Report Successfully Added..",Toast.LENGTH_LONG).show();
             }
         });
     }
