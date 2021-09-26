@@ -59,7 +59,7 @@ public class PatientDashboard extends AppCompatActivity {
 
     public void openPaymentCard(View view) {
 
-        Intent intent = new Intent(this,PaymentCard.class);
+        Intent intent = new Intent(this,Payment.class);
 
         startActivity(intent);
     }
