@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/adrepbgr"
     tools:context=".AddReport">
 
-<!--    <androidx.appcompat.widget.Toolbar-->
-<!--        android:id="@+id/toolbar6"-->
-<!--        android:layout_width="411dp"-->
-<!--        android:layout_height="59dp"-->
-<!--        android:layout_marginTop="1dp"-->
-<!--        android:background="@color/adrp01"-->
-<!--        android:minHeight="?attr/actionBarSize"-->
-<!--        android:theme="?attr/actionBarTheme"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar6"-->
+    <!--        android:layout_width="411dp"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:layout_marginTop="1dp"-->
+    <!--        android:background="@color/adrp01"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:theme="?attr/actionBarTheme"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <TextView
         android:id="@+id/sa001"
@@ -87,8 +88,8 @@
         android:id="@+id/ar_pt3"
         android:layout_width="126dp"
         android:layout_height="54dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="number"
@@ -138,8 +139,8 @@
         android:id="@+id/ar_bgrp"
         android:layout_width="143dp"
         android:layout_height="42dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:gravity="start|top"
@@ -164,8 +165,8 @@
         android:id="@+id/ar_tnum1"
         android:layout_width="144dp"
         android:layout_height="44dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
         android:layout_marginTop="7dp"
         android:ems="10"
         android:inputType="numberDecimal"

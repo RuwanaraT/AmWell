@@ -28,4 +28,9 @@
     <color name="shrp11">#FF330977</color>
     <color name="adm_01">#6200ee</color>
     <color name="adm02">#8256CF</color>
+    <color name="shrep_bgclr">#DCAEE4</color>
+    <color name="rplisrbgr">#cddbfa</color>
+    <color name="listviewbgr2">#7FA4F5</color>
+    <color name="uprepclr">#cddbfa</color>
+    <color name="adrepbgr">#cddbfa</color>
 </resources>

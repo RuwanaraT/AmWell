@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/shrep_bgclr"
     tools:context=".ShowReport">
 
-<!--    <androidx.appcompat.widget.Toolbar-->
-<!--        android:id="@+id/toolbar5"-->
-<!--        android:layout_width="409dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="1dp"-->
-<!--        android:background="?attr/colorPrimary"-->
-<!--        android:minHeight="?attr/actionBarSize"-->
-<!--        android:theme="?attr/actionBarTheme"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar5"-->
+    <!--        android:layout_width="409dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="1dp"-->
+    <!--        android:background="?attr/colorPrimary"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:theme="?attr/actionBarTheme"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageView
         android:id="@+id/sr_img1"
         android:layout_width="123dp"
         android:layout_height="106dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rep" />
@@ -39,7 +39,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sr_img1" />
 
@@ -47,8 +47,8 @@
         android:id="@+id/sr_tw2"
         android:layout_width="77dp"
         android:layout_height="24dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_name"
         android:textColor="@color/shrp02"
@@ -59,8 +59,8 @@
 
     <TextView
         android:id="@+id/sr_tw3"
-        android:layout_width="203dp"
-        android:layout_height="28dp"
+        android:layout_width="165dp"
+        android:layout_height="24dp"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="8dp"
@@ -74,8 +74,8 @@
         android:id="@+id/sr_tw4"
         android:layout_width="76dp"
         android:layout_height="24dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_nic"
         android:textColor="@color/shrp03"
@@ -99,10 +99,10 @@
 
     <TextView
         android:id="@+id/sr_tw6"
-        android:layout_width="148dp"
+        android:layout_width="153dp"
         android:layout_height="27dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_bp"
         android:textColor="@color/shrp04"
@@ -113,10 +113,10 @@
 
     <TextView
         android:id="@+id/sr_tw7"
-        android:layout_width="171dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_width="138dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_bp2"
         android:textSize="20sp"
@@ -128,8 +128,8 @@
         android:id="@+id/sr_tw9"
         android:layout_width="148dp"
         android:layout_height="28dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_bs"
         android:textColor="@color/shrp05"
@@ -155,8 +155,8 @@
         android:id="@+id/sr_tw12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_allg"
         android:textColor="@color/shrp06"
@@ -167,10 +167,10 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="202dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="78dp"
-        android:layout_marginLeft="78dp"
+        android:layout_width="162dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_allg2"
         android:textSize="20sp"
@@ -181,9 +181,9 @@
     <TextView
         android:id="@+id/sr_tw14"
         android:layout_width="79dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_weight"
         android:textColor="@color/shrp07"
@@ -194,10 +194,10 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="208dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
         android:layout_marginTop="8dp"
         android:text="@string/shrp_weight2"
         android:textSize="20sp"
@@ -214,9 +214,11 @@
         android:textColor="@color/shrp09"
         android:textSize="20sp"
         android:textStyle="italic"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sr_tw18" />
+        app:layout_constraintTop_toBottomOf="@+id/sr_tw18"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/sr_tw17"
