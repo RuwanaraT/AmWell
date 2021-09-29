@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                           if(result==true) {
 
                               Intent intent = new Intent(getApplicationContext(),PatientDashboard.class);
-                              intent.putExtra("refE", iEmail);
+//                              intent.putExtra("refE", iEmail);
                               startActivity(intent);
                           }
 
