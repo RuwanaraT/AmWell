@@ -19,7 +19,7 @@ public class PatientDashboard extends AppCompatActivity {
     Context context;
     DBManager dbManager;
 
-    String eAdd;
+//    String eAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +34,12 @@ public class PatientDashboard extends AppCompatActivity {
         context = this;
         dbManager = new DBManager(context);
 
-        Intent intent = getIntent();
-
-        eAdd = intent.getStringExtra("refE");
-
-        int count = dbManager.countChannel(eAdd);
-        tv_upcoming.setText("You have "+count+" Upcoming Channel");
+//        Intent intent = getIntent();
+//
+//        eAdd = intent.getStringExtra("refE");
+//
+//        int count = dbManager.countChannel(eAdd);
+//        tv_upcoming.setText("You have "+count+" Upcoming Channel");
     }
 
 

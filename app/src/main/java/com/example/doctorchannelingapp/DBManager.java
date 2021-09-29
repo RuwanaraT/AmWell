@@ -264,12 +264,12 @@ public class DBManager extends SQLiteOpenHelper {
             return false;
         }
     }
-
-    public int countChannel(String eAdd) {
-
-        SQLiteDatabase db = getReadableDatabase();
-
-        Cursor cursor = db.rawQuery("SELECT * FROM channel WHERE p_email = ?", new String[]{eAdd});
-        return cursor.getCount();
-    }
+//
+//    public int countChannel(String eAdd) {
+//
+//        SQLiteDatabase db = getReadableDatabase();
+//
+//        Cursor cursor = db.rawQuery("SELECT * FROM channel WHERE p_email = ?", new String[]{eAdd});
+//        return cursor.getCount();
+//    }
 }
