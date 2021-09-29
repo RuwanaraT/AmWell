@@ -15,9 +15,9 @@ public class PatientDashboard extends AppCompatActivity {
     Button btn_profile;
     Button btn_pay;
     Button btn_refund;
-//    TextView tv_upcoming;
-//    Context context;
-//    DBManager dbManager;
+    TextView tv_upcoming;
+    Context context;
+    DBManager dbManager;
 
     String eAdd;
 
@@ -30,16 +30,16 @@ public class PatientDashboard extends AppCompatActivity {
         btn_profile = findViewById(R.id.btn_profile);
         btn_pay = findViewById(R.id.btn_payd);
         btn_refund = findViewById(R.id.btn_refund);
-//        tv_upcoming = findViewById(R.id.tv_upcoming);
-//        context = this;
-//        dbManager = new DBManager(context);
+        tv_upcoming = findViewById(R.id.tv_upcoming);
+        context = this;
+        dbManager = new DBManager(context);
 
-//        Intent intent = getIntent();
-//
-//        eAdd = intent.getStringExtra("ref");
+        Intent intent = getIntent();
 
-//        int count = dbManager.countChannel(eAdd);
-//        tv_upcoming.setText("You have "+count+" Upcoming Channels");
+        eAdd = intent.getStringExtra("refE");
+
+        int count = dbManager.countChannel(eAdd);
+        tv_upcoming.setText("You have "+count+" Upcoming Channel");
     }
 
 
